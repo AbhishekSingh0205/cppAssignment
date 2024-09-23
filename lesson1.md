@@ -60,3 +60,7 @@ Implement the following functions :
 
 1. `sortDescending( int arr[], int n )` -> This function accepts an array `arr` of size `n` and print the sorted array in descending order. This function does not return any thing.
 2. `numDistinct(vector<int> arr)` -> This function accepts a `vector<int>` and returns the number of distinct integers in the vector.
+
+## Time and Space Complexity
+1. Time Complexity : The ```sort()``` function uses an algorithm with a time complexity of ```O(n log n)```, where ```n``` is the number of elements in the array or vector.
+2. Space Complexity : The space complexity is typically ```O(1)``` as sorting is done in-place. However, if you are using a vector of objects, it could require additional space.
